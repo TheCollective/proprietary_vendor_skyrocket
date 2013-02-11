@@ -41,17 +41,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/skyrocket/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/skyrocket/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-	vendor/samsung/skyrocket/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/samsung/skyrocket/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+	vendor/samsung/skyrocket/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/samsung/skyrocket/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/samsung/skyrocket/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/samsung/skyrocket/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+	vendor/samsung/skyrocket/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/skyrocket/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/skyrocket/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/samsung/skyrocket/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
 	vendor/samsung/skyrocket/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
 	vendor/samsung/skyrocket/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+	vendor/samsung/skyrocket/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/bcm4330_apsta.bin:system/etc/wifi/bcm4330_apsta.bin \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/wl:system/etc/wifi/wl \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
@@ -101,7 +102,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-	vendor/samsung/skyrocket/proprietary/bin/hostapd:system/bin/hostapd \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/cyttsp_8660_ffa.hex:system/etc/firmware/cyttsp_8660_ffa.hex \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/cyttsp_8660_fluid_p2.hex:system/etc/firmware/cyttsp_8660_fluid_p2.hex \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/cyttsp_8660_fluid_p3.hex:system/etc/firmware/cyttsp_8660_fluid_p3.hex \
